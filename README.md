@@ -28,14 +28,14 @@ Dentre as funcionalidades da api está a possibilidade de criar, editar, deletar
 - Clone o repositório
 - Instale o pipenv shell como usuário ( pip install --user pipenv)
 - É necessário o python 3.7.x
-- Após instalar o pipenvshell, use o comando pipenvshell para criar uma virtualenv.
+- Após instalar o pipenvshell, use o comando ' pipenvshell ' para criar uma virtualenv.
 - Após criar e ativar a virtualenv, rode o comando pipenv sync, para baixar as dependências da aplicação.
-- É necessario também gerar as migrations para a aplicação funcionar. Rode o comando python manage.py makemigrations
-  e em seguida execute o comando python manage.py migrate.
-- E finalmente para iniciar a aplicação execute o comando, python manage.py runserver.
+- É necessario também gerar as migrations para a aplicação funcionar. Rode o comando ' python manage.py makemigrations '
+  e em seguida execute o comando ' python manage.py migrate '.
+- E finalmente para iniciar a aplicação execute o comando, ' python manage.py runserver '.
 
 ## Rotas
-- http://localhost:8000/admin -> Acesso ao painel do djangoAdmin. É necessário utilizar o comando python manage.py createsuperuser
+- http://localhost:8000/admin -> Acesso ao painel do djangoAdmin. É necessário utilizar o comando ' python manage.py createsuperuser '
   para ter acesso a esse painel
 - http://localhost:8000/rest-auth/registration/ -> Rota do tipo POST, para registro de usuário.
 - http://localhost:8000/rest-auth/login/ -> Rota do tipo POST, para login.
