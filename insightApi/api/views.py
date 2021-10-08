@@ -15,6 +15,8 @@ class CardSpecsViewSet(viewsets.ModelViewSet):
     params = kwargs
 
     tag = Tag.objects.filter(name=params['pk'])
+    if not tag:
+      return Response({'msg': 'Nenhum resultado disponível.'})
     cards = Card.objects.filter(tags = tag[0].id)
     serializer = CardSerializer(cards, many=True)
 
