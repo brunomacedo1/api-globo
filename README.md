@@ -41,6 +41,6 @@ Dentre as funcionalidades da api está a possibilidade de criar, editar, deletar
 - http://localhost:8000/rest-auth/login/ -> Rota do tipo POST, para login.
 - http://localhost:8000/rest-auth/logout/ -> Rota do tipo POST, para logout.
 - http://localhost:8000/api/cards/ -> Rota do tipo GET onde é listada todos os cards da aplicação. E POST para criar um card
-- http://localhost:8000/api/card/id/ -> Rota GET, PUT, DELETE para o card da aplicação.
+- http://localhost:8000/api/cards/id/ -> Rota GET, PUT, DELETE para o card da aplicação.
 - http://localhost:8000/api/cards/categoria/ -> Rota para listar o card a partir do filtro de categoria.
 
