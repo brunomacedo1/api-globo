@@ -1,4 +1,4 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, status
 from .serializer import CardSerializer
 from insightApi.models import Card, Tag
 from rest_framework.permissions import IsAuthenticated
@@ -16,7 +16,7 @@ class CardSpecsViewSet(viewsets.ModelViewSet):
 
     tag = Tag.objects.filter(name=params['pk'])
     if not tag:
-      return Response({'msg': 'Nenhum resultado disponível.'})
+      return Response(status=status.HTTP_204_NO_CONTENT)
     cards = Card.objects.filter(tags = tag[0].id)
     serializer = CardSerializer(cards, many=True)
 
