@@ -2,7 +2,6 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-rotas">Rotas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -35,7 +34,7 @@ Dentre as funcionalidades da api está a possibilidade de criar, editar, deletar
   e em seguida execute o comando ' python manage.py migrate '.
 - E finalmente para iniciar a aplicação execute o comando, ' python manage.py runserver '.
 
-## Rotas
+##  Rotas
 - http://localhost:8000/admin -> Acesso ao painel do djangoAdmin. É necessário utilizar o comando ' python manage.py createsuperuser '
   para ter acesso a esse painel
 - http://localhost:8000/rest-auth/registration/ -> Rota do tipo POST, para registro de usuário.
