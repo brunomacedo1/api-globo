@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Api criada para o desafio da globo.
-A api tem o objetivo de implmentar Cards esportivos que seram consumidos por uma interface(front-end).
+A api tem o objetivo de implmentar Cards esportivos que serão consumidos por uma interface(front-end).
 Dentre as funcionalidades da api está a possibilidade de criar, editar, deletar, listar, e listar com filtros Cards, que são insigths esportivos.
 
 
